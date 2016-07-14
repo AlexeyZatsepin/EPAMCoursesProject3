@@ -122,4 +122,12 @@ public class VisualParameters {
         this.verges = value;
     }
 
+    @Override
+    public String toString() {
+        return "VisualParameters{" +
+                "color=" + color +
+                ", transparency=" + transparency +
+                ", verges=" + verges +
+                '}';
+    }
 }
